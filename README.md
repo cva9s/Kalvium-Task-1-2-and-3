@@ -65,6 +65,7 @@ be there
 
 
 Solution-->
+
 ```Pyhton
 
 class RockPaperScissorsEngine:
@@ -194,7 +195,7 @@ def minCoinsR(denomination, change, supply):
             supply[d] -= 1
             res.append(minCoinsR(denomination, change-d, supply)+1)
     return min(res) if len(res) > 0 else 0
-    ```
+  ```
 
 
 Question 3)There are varying opinions amongst writers as to when one should
